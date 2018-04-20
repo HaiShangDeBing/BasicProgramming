@@ -7,6 +7,8 @@
 ///
 /// \author HSDB
 /// \date 2018-04-20
+
+/// #pragma pack(1) 可以改变对齐方式
 #include <iostream>
 using namespace std;
 
