@@ -30,7 +30,10 @@ struct C{
     short b;
 };
 
+struct D{
+};
+
 int main(){
-    cout<<"A:"<<sizeof(A)<<"\nB:"<<sizeof(B)<<"\nC:"<<sizeof(C);
+    cout<<"A:"<<sizeof(A)<<"\nB:"<<sizeof(B)<<"\nC:"<<sizeof(C)<<"\nD:"<<sizeof(D); /// 8,8,12,1
     return 0;
 }
